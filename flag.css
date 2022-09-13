@@ -1,0 +1,23 @@
+img {
+  width: 23%;
+  margin-top: 0;
+  transform: translate(0px, 245px);
+}
+
+table {
+  width: 50%;
+}
+
+.stars {
+  margin-top: 100px;
+}
+
+@media all and (min-width: 500px) {
+  img {
+    width: 320px;
+  }
+}
+
+tr {
+  height: 100px;
+}

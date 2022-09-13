@@ -1,0 +1,28 @@
+body,
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5,
+.pro6,
+.pro7,
+.pro8 {
+  background-color: rgb(7, 7, 168);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 450px);
+  grid-auto-rows: minmax(300px, auto);
+  background-color: rgb(7, 7, 168);
+}
+img {
+  margin-left: 100px;
+  width: 175px;
+}
+
+button {
+  margin-left: 100px;
+  background-color: yellow;
+  padding: 5px;
+}
